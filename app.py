@@ -16,7 +16,7 @@ def predict_energy_output(ambient_temp, exhaust_vacuum, ambient_pressure, relati
     return prediction[0]
 
 # Streamlit app
-st.title('Energy Output Prediction')
+st.title('Energy Output Prediction for Thermal Power Plant')
 
 # Input fields
 ambient_temp = st.number_input('Ambient Temperature (°C)', min_value=-50.0, max_value=50.0, step=0.1)
